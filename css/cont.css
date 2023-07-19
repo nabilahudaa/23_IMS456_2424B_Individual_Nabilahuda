@@ -1,0 +1,42 @@
+.contact {
+    background-color: #beb6b6;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+}
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact-info {
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content:space-evenly;
+
+    margin-bottom: 20px;
+  }
+  
+  .contact-item {
+    margin: 10px;
+    text-align: center;
+    align-content: center;
+  }
+  
+ 
+  .contact-item img{
+    width: 10%;
+  }
+  h2{
+    text-align: center;
+    background-color: rgb(222, 149, 174);
+    color: rgb(250, 241, 241);
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .site-footer {
+    background-color: #4c1961;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }

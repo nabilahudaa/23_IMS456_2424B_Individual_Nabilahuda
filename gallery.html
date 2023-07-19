@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Website</title>
+  <link rel="stylesheet" href="css/gallery.css">
+  <style>
+     
+    body {
+      background-color: #341f3b;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #c8a2c8;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: larger;
+    }
+
+    nav {
+      background-color: #e8d6f4;
+      padding: 10px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    nav ul li {
+      display: inline;
+      margin: 0 10px;
+    }
+
+    nav ul li a {
+      color: #4d1669;
+      text-decoration: none;
+    }
+
+    nav ul li a:hover {
+      color: #6c277d;
+      text-decoration: underline;
+    }
+    
+  </style>
+</head>
+<body>
+    <header>
+      <h1>Welcome to my website!</h1>
+    </header>
+    
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="biodata.html">Biodata</a></li>
+        <li><a href="edu.html">Education</a></li>
+        <li><a href="exp.html">Experience</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        
+        <li><a href="contact.html">Contact</a></li>
+        
+      </ul>
+    </nav>
+    <section id="gallery">
+        <div class="gallery-container">
+          <img src="images/fam1.jpg" alt="Image 6" onclick="toggleFullscreen(this)">
+          <img src="images/fam1.2.jpg" alt="Image 6" onclick="toggleFullscreen(this)">
+          <img src="images/fam2.jpg" alt="Image 6" onclick="toggleFullscreen(this)">
+          <img src="images/fam3.jpg" alt="Image 6" onclick="toggleFullscreen(this)">
+          <img src="images/fam4.jpg" alt="Image 6" onclick="toggleFullscreen(this)">
+          <img src="images/fam5.jpg" alt="Image 6" onclick="toggleFullscreen(this)">
+          <img src="images/fam6.jpg" alt="Image 6" onclick="toggleFullscreen(this)">
+
+          <img src="images/s1.jpg" alt="Image 2" onclick="toggleFullscreen(this)">
+          <img src="images/s1.2.jpg" alt="Image 3" onclick="toggleFullscreen(this)">
+          <img src="images/s2.jpg" alt="Image 4" onclick="toggleFullscreen(this)">
+          <img src="images/s3.jpg" alt="Image 5" onclick="toggleFullscreen(this)">
+          <img src="images/s5.jpg" alt="Image 6" onclick="toggleFullscreen(this)">
+         
+          <img src="images/s7.jpg" alt="Image 8" onclick="toggleFullscreen(this)">
+         
+        </div>
+      </section>
+      <script>
+        function toggleFullscreen(img) {
+  if (!document.fullscreenElement) {
+    img.requestFullscreen();
+  } else {
+    if (document.exitFullscreen) {
+      document.exitFullscreen();
+    }
+  }
+}
+
+      </script>
+    <footer class="site-footer">
+      <p>&copy; 2023 Nabila Huda. All rights reserved.</p>
+    </footer>
+      
+  </body>
+  </html>

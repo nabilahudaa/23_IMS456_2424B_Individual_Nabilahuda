@@ -1,0 +1,169 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    background-color: #9370DB; /* Lilac color */
+    overflow: hidden;
+  }
+  
+  .navbar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .navbar a:hover {
+    background-color: #D8BFD8; /* Lighter lilac color on hover */
+  }
+  #biodata {
+    background-color: #d7aaca;
+    padding: 20px;
+  }
+  
+  .biodata-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .biodata-image {
+    flex: 0 0 200px; v
+    margin-right: 20px;
+  }
+  
+  .biodata-image img {
+    width: 350;
+    height: 400px;
+    padding-left: 50%;
+  }
+  
+  .biodata-text {
+    flex: 1;
+  }
+  
+  .biodata-text h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-left: 40%;
+  }
+  
+  .biodata-text p {
+    font-size: 16px;
+    line-height: 1.5;
+    padding-left: 40%;
+    text-decoration: underline;
+  }
+  .textbox {
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(241, 241, 236);
+    padding-left: 15px;
+    width: 500px;
+    margin: 120px;
+    text-align: justify;
+    padding-right: 15px;
+    line-height: 1.5;
+  }
+ .button-contact{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    padding-left: 7%;
+  }
+  
+  button-c.contact {
+    background-color: #45a049;
+  }
+  
+  .horizontal-line {
+    align-content: normal;
+    display: block;
+    width: 20%;
+    height: 3px;
+    background: #333;
+    margin-left: 90px;
+  }
+  
+
+  
+  
+  .contact {
+    background-color: #beb6b6;
+    padding: 20px;
+  }
+  
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .contact-item {
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .social-media {
+    display: flex;
+  }
+  
+  .social-icon {
+    font-size: 24px;
+    color: #333;
+    margin: 0 10px;
+  }
+
+  
+  .experience-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .textbox {
+    width: calc(50% - 10px);
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+  
+  .button-container {
+    text-align: center; /* Align the button to the right */
+    padding: 35px; /* Optional: Add some padding for spacing */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+  }
+  .site-footer {
+    background-color: #4c1961;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  .moving-header {
+    animation: moveHeader 5s infinite alternate;
+  }
+  
+  @keyframes moveHeader {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(20px);
+    }
+  }
